@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import ImageSection from "../components/ImageSection";
 import Functions from "../components/Functions";
 import WhyChoose from "../components/WhyChoose";
 import Tokenomics from "../components/Tokenomics";
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <ImageSection />
       <Functions />
       <WhyChoose />
       <Tokenomics />

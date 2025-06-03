@@ -169,3 +169,40 @@ html {
     transform: translateY(-16px) translateX(-3px);
   }
 }
+
+/* 径向渐变样式 */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* 光晕脉动动画 */
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes glowFloat {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(10px, -5px) scale(1.02);
+  }
+  66% {
+    transform: translate(-8px, 8px) scale(0.98);
+  }
+}
+
+.animate-glow-pulse {
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+.animate-glow-float {
+  animation: glowFloat 6s ease-in-out infinite;
+}
