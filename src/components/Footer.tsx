@@ -29,7 +29,9 @@ export default function Footer() {
               <a href="https://x.com/Hive_AI_Token" target="_blank" rel="noopener noreferrer">
                 <SocialLink icon={<TwitterIcon />} label="Twitter" />
               </a>
-              <SocialLink icon={<TelegramIcon />} label="Telegram" />
+              <a href="https://t.me/Hive_AI" target="_blank" rel="noopener noreferrer">
+                <SocialLink icon={<TelegramIcon />} label="Telegram" />
+              </a>
               <SocialLink icon={<DextoolsIcon />} label="Dextools" />
               <SocialLink icon={<DexScreenerIcon />} label="Dex Screener" />
             </div>
@@ -56,7 +58,7 @@ export default function Footer() {
               Resources
             </h3>
             <ul className="space-y-2 sm:space-y-3">
-              <FooterLink href="#whitepaper" text="Whitepaper" />
+              <FooterLink href="https://docs.hiveaitoken.xyz/" text="Whitepaper" external={true} />
             </ul>
           </div>
         </div>
@@ -89,10 +91,11 @@ function SocialLink({ icon, label }: {
 }
 
 // Footer Link Component
-function FooterLink({ href, text, small = false }: {
+function FooterLink({ href, text, small = false, external = false }: {
   href: string;
   text: string;
   small?: boolean;
+  external?: boolean;
 }) {
   return (
     <li>
@@ -101,6 +104,7 @@ function FooterLink({ href, text, small = false }: {
         className={`font-syne text-gray-300 hover:text-[#df7c09] transition-colors duration-300 ${
           small ? 'text-xs sm:text-sm' : 'text-sm sm:text-base'
         }`}
+        {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       >
         {text}
       </a>

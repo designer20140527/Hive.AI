@@ -126,7 +126,9 @@ export default function Hero() {
               </a>
             </div>
             <div className="flex justify-center items-start h-full">
-              <SocialMediaItem icon={<TelegramIcon />} name="Telegram" />
+              <a href="https://t.me/Hive_AI" target="_blank" rel="noopener noreferrer">
+                <SocialMediaItem icon={<TelegramIcon />} name="Telegram" />
+              </a>
             </div>
             <div className="flex justify-center items-start h-full">
               <SocialMediaItem icon={<DextoolsIcon />} name="Dextools" />

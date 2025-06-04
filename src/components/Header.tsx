@@ -48,7 +48,7 @@ export default function Header() {
             <SocialIcon href="https://x.com/Hive_AI_Token" ariaLabel="Twitter">
               <TwitterIcon />
             </SocialIcon>
-            <SocialIcon href="#" ariaLabel="Telegram">
+            <SocialIcon href="https://t.me/Hive_AI" ariaLabel="Telegram">
               <TelegramIcon />
             </SocialIcon>
             <div className="hidden md:block">
@@ -64,11 +64,16 @@ export default function Header() {
           </div>
 
           {/* Gitbook 按钮 */}
-          <button className="relative text-white font-syne font-medium rounded-full bg-gradient-to-r from-[#7b0300] to-[#df7c09] p-[2px] group">
+          <a 
+            href="https://docs.hiveaitoken.xyz/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="relative text-white font-syne font-medium rounded-full bg-gradient-to-r from-[#7b0300] to-[#df7c09] p-[2px] group"
+          >
             <span className="block px-4 sm:px-6 lg:px-8 py-1.5 sm:py-2 bg-[#1a1a1a] rounded-full group-hover:bg-transparent transition-colors w-full h-full text-sm sm:text-base">
               Gitbook
             </span>
-          </button>
+          </a>
 
           {/* 移动端菜单按钮 */}
           <button
@@ -125,7 +130,7 @@ export default function Header() {
               <SocialIcon href="https://x.com/Hive_AI_Token" ariaLabel="Twitter">
                 <TwitterIcon />
               </SocialIcon>
-              <SocialIcon href="#" ariaLabel="Telegram">
+              <SocialIcon href="https://t.me/Hive_AI" ariaLabel="Telegram">
                 <TelegramIcon />
               </SocialIcon>
               <SocialIcon href="#" ariaLabel="Discord">
