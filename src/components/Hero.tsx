@@ -121,7 +121,7 @@ export default function Hero() {
         <div className="hidden sm:flex h-[5vh] items-start justify-center">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-0 w-[95vw] h-full px-4">
             <div className="flex justify-center items-start h-full">
-              <a href="https://x.com/Hive_AI_Token" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/Hive_AI_Coin" target="_blank" rel="noopener noreferrer">
                 <SocialMediaItem icon={<TwitterIcon />} name="Twitter" />
               </a>
             </div>
