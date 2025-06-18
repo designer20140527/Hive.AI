@@ -26,7 +26,7 @@ export default function Footer() {
             
             {/* Social Links */}
             <div className="flex flex-wrap gap-3 sm:gap-4">
-              <a href="https://x.com/Hive_AI_Token" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/Hive_AI_Coin" target="_blank" rel="noopener noreferrer">
                 <SocialLink icon={<TwitterIcon />} label="Twitter" />
               </a>
               <a href="https://t.me/Hive_AI" target="_blank" rel="noopener noreferrer">
