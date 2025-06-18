@@ -45,7 +45,7 @@ export default function Header() {
         <div className="flex items-center gap-2 sm:gap-4">
           {/* 社交图标 - 在小屏幕上隐藏部分图标 */}
           <div className="hidden sm:flex items-center gap-2 lg:gap-3">
-            <SocialIcon href="https://x.com/Hive_AI_Token" ariaLabel="Twitter">
+            <SocialIcon href="https://x.com/Hive_AI_Coin" ariaLabel="Twitter">
               <TwitterIcon />
             </SocialIcon>
             <SocialIcon href="https://t.me/Hive_AI" ariaLabel="Telegram">
@@ -127,7 +127,7 @@ export default function Header() {
             
             {/* 移动端社交图标 */}
             <div className="flex items-center gap-4 mt-4 pt-4 border-t border-[#3c3c3c]/20 sm:hidden">
-              <SocialIcon href="https://x.com/Hive_AI_Token" ariaLabel="Twitter">
+              <SocialIcon href="https://x.com/Hive_AI_Coin" ariaLabel="Twitter">
                 <TwitterIcon />
               </SocialIcon>
               <SocialIcon href="https://t.me/Hive_AI" ariaLabel="Telegram">
