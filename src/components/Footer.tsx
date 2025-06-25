@@ -32,8 +32,12 @@ export default function Footer() {
               <a href="https://t.me/Hive_AI" target="_blank" rel="noopener noreferrer">
                 <SocialLink icon={<TelegramIcon />} label="Telegram" />
               </a>
+              <a href="https://www.dextools.io/app/cn/bnb/pair-explorer/0xbdb8bac2ee499475f8d048e428fb95e9788aa9bc?t=1750838282649" target="_blank" rel="noopener noreferrer">
               <SocialLink icon={<DextoolsIcon />} label="Dextools" />
+              </a>
+              <a href="https://dexscreener.com/bsc/0xbdb8bac2ee499475f8d048e428fb95e9788aa9bc" target="_blank" rel="noopener noreferrer">
               <SocialLink icon={<DexScreenerIcon />} label="Dex Screener" />
+                </a>
             </div>
           </div>
 
