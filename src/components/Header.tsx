@@ -52,12 +52,12 @@ export default function Header() {
               <TelegramIcon />
             </SocialIcon>
             <div className="hidden md:block">
-              <SocialIcon href="#" ariaLabel="Discord">
+              <SocialIcon href="https://www.dextools.io/app/cn/bnb/pair-explorer/0xbdb8bac2ee499475f8d048e428fb95e9788aa9bc?t=1750842762354" ariaLabel="Discord">
                 <DiscordIcon />
               </SocialIcon>
             </div>
             <div className="hidden md:block">
-              <SocialIcon href="#" ariaLabel="GitHub">
+              <SocialIcon href="https://dexscreener.com/bsc/0xbdb8bac2ee499475f8d048e428fb95e9788aa9bc" ariaLabel="GitHub">
                 <GitHubIcon />
               </SocialIcon>
             </div>
