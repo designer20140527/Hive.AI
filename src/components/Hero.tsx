@@ -131,10 +131,14 @@ export default function Hero() {
               </a>
             </div>
             <div className="flex justify-center items-start h-full">
+              <a href="https://www.dextools.io/app/cn/bnb/pair-explorer/0xbdb8bac2ee499475f8d048e428fb95e9788aa9bc?t=1750838282649" target="_blank" rel="noopener noreferrer">
               <SocialMediaItem icon={<DextoolsIcon />} name="Dextools" />
+                </a>
             </div>
             <div className="flex justify-center items-start h-full">
+              <a href="https://dexscreener.com/bsc/0xbdb8bac2ee499475f8d048e428fb95e9788aa9bc" target="_blank" rel="noopener noreferrer">
               <SocialMediaItem icon={<DexScreenerIcon />} name="Dex Screener" />
+                </a>
             </div>
           </div>
         </div>
